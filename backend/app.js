@@ -6,6 +6,7 @@ const user = require('./models/User');
 const Thing = require('./models/thing');
 const stuffRoutes = require('./routes/stuff');
 const userRoutes = require('./routes/user');
+
 mongoose.connect('mongodb+srv://dzaltern:passfor@cluster0-kqhbz.mongodb.net/test?retryWrites=true&w=majority',
   { useNewUrlParser: true,
     useUnifiedTopology: true })
