@@ -17,7 +17,6 @@ import { ModifyThingWithUploadComponent } from './part-four/modify-thing-with-up
 const routes: Routes = [
   { path: 'part-one', component: PartOneComponent,
     children: [
-      { path: '', redirectTo: 'all-stuff', pathMatch: 'full'},
       { path: 'new-thing', component: NewThingComponent },
       { path: 'all-stuff', component: StuffListComponent },
       { path: 'thing/:id', component: SingleThingComponent },
